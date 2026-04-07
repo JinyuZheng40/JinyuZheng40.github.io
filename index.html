@@ -3,32 +3,31 @@
 <head>
   <title>Main Page</title>
 
+  <!-- LaTeX-style font -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/computer-modern@0.1.2/index.min.css">
+
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: "Computer Modern Serif", serif;
       margin: 0;
+      color: black;
+      background: white;
     }
 
-    /* Top bar */
+    /* Navbar */
     .navbar {
       display: flex;
-      justify-content: flex-end;  /* pushes items to the right */
-      background-color: #222;
+      justify-content: flex-end;
       padding: 10px 20px;
     }
 
     .navbar a {
-      color: white;
+      color: black;
       text-decoration: none;
       margin-left: 20px;
-      font-size: 16px;
     }
 
-    .navbar a:hover {
-      text-decoration: underline;
-    }
-
-    /* Page content */
+    /* Content */
     .content {
       padding: 20px;
     }
@@ -37,7 +36,6 @@
 
 <body>
 
-  <!-- NAVBAR -->
   <div class="navbar">
     <a href="index.html">Home</a>
     <a href="projects.html">Projects</a>
@@ -45,7 +43,6 @@
     <a href="resume.html">Resume</a>
   </div>
 
-  <!-- MAIN CONTENT -->
   <div class="content">
     <h1>Test</h1>
     <p>Welcome to my project site.</p>
