@@ -3,49 +3,52 @@
 <head>
   <title>Main Page</title>
 
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/computer-modern@0.1.2/index.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css">
 
   <style>
     body {
-      font-family: "Computer Modern Serif", serif;
+      font-family: "Computer Modern Sans", sans-serif;
       margin: 0;
       color: black;
       background: white;
     }
 
-    /* Navbar */
+    .page {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 30px;
+      border: 1px solid black;
+    }
+
     .navbar {
       display: flex;
       justify-content: flex-end;
-      padding: 10px 20px;
+      margin-bottom: 30px;
     }
 
     .navbar a {
       color: black;
       text-decoration: none;
       margin-left: 20px;
-    }
-
-    /* Content */
-    .content {
-      padding: 20px;
+      font-size: 30px;
     }
   </style>
 </head>
 
 <body>
 
-  <div class="navbar">
-    <a style="font-size: 30px;", href="index.html">Home</a>
-    <a href="projects.html">Projects</a>
-    <a href="about.html">About</a>
-    <a href="resume.html">Resume</a>
-  </div>
+  <div class="page">
 
-  <div class="content">
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="resume.html">Resume</a>
+    </div>
+
     <h1>Test</h1>
     <p>Welcome to my project site.</p>
+
   </div>
 
 </body>
