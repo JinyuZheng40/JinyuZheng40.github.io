@@ -11,20 +11,15 @@
       font-size: 20px;
       margin: 0;
       color: black;
-      background: white;
+      background: #f5f5f5;
     }
-body {
-  background: #f5f5f5;
-}
 
-.page {
-  background: white;
-}
     .page {
       max-width: 800px;
       margin: 40px auto;
       padding: 30px;
       border: 1px solid black;
+      background: white;
     }
 
     .navbar {
@@ -39,6 +34,19 @@ body {
       margin-left: 20px;
       font-size: 18px;
     }
+
+
+    .about-row {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+
+    .about-row img {
+      width: 300px;
+      height: auto;
+      border: 1px solid black;
+    }
   </style>
 </head>
 
@@ -52,11 +60,20 @@ body {
       <a href="resume.html">Resume</a>
     </div>
 
-    <h2>Home</h2>
-    <p>My personal site. Its not the prettiest but it works.</p>
+    <h2>Jinyu Zheng</h2>
+    <p>My personal site</p>
 
     <h2>About</h2>
-    <p>I am an Electrical Engineering student at NYU Tandon School of Engineering. My coursework and projects focus primarily on signal processing and its implementations.</p>
+
+    <div class="about-row">
+      <img src="nyu_tandon.jfif" alt="about image">
+
+      <p>
+        I am an Electrical Engineering student at NYU Tandon School of Engineering. 
+        My coursework and projects focus primarily on signal processing and its implementations.
+      </p>
+    </div>
+
   </div>
 
 </body>

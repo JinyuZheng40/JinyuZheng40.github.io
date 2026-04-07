@@ -11,20 +11,15 @@
       font-size: 20px;
       margin: 0;
       color: black;
-      background: white;
+      background: #f5f5f5;
     }
-body {
-  background: #f5f5f5;
-}
 
-.page {
-  background: white;
-}
     .page {
       max-width: 800px;
       margin: 40px auto;
       padding: 30px;
       border: 1px solid black;
+      background: white;
     }
 
     .navbar {
@@ -40,20 +35,32 @@ body {
       font-size: 18px;
     }
 
+    /* Project layout */
+    .project-row {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
 
+    .project-row img {
+      width: 130px;
+      height: auto;
+      border: 1px solid black;
+    }
 
-    .project-list p {
-      margin: 8px 0;
+    .project-text p {
+      margin: 0;
       font-size: 22px;
     }
 
-    .project-list a {
+    .project-text a {
       font-weight: bold;
       text-decoration: underline;
       color: black;
     }
 
-    .project-list sup {
+    .project-text sup {
       font-size: 12px;
       margin-left: 4px;
     }
@@ -70,8 +77,15 @@ body {
 
     <h2>Projects</h2>
 
-    <div class="project-list">
-      <p><a href="projects/project1/index.html">Ragdoll Simulator</a> - A fun attempt at physical realism of throwing a dummy around.</p>
+    <div class="project-row">
+      <img src="projects/project1/main.PNG" alt="project image">
+
+      <div class="project-text">
+        <p>
+          <a href="projects/project1/index.html">Ragdoll Simulator</a> - 
+          A fun attempt at physical realism of throwing a dummy around.
+        </p>
+      </div>
     </div>
 
   </div>
