@@ -1,11 +1,55 @@
-
 <!DOCTYPE html>
 <html>
 <head>
   <title>Main Page</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    /* Top bar */
+    .navbar {
+      display: flex;
+      justify-content: flex-end;  /* pushes items to the right */
+      background-color: #222;
+      padding: 10px 20px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 16px;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    /* Page content */
+    .content {
+      padding: 20px;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Test</h1>
-  <p>Welcome to my project site.</p>
+
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">About</a>
+    <a href="resume.html">Resume</a>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="content">
+    <h1>Test</h1>
+    <p>Welcome to my project site.</p>
+  </div>
+
 </body>
 </html>
