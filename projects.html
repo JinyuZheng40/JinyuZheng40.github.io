@@ -2,90 +2,45 @@
 <html>
 <head>
   <title>Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css">
-
-  <style>
-    body {
-      font-family: "Computer Modern Serif", serif;
-      font-size: 20px;
-      margin: 0;
-      color: black;
-      background: #f5f5f5;
-    }
-
-    .page {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 30px;
-      border: 1px solid black;
-      background: white;
-    }
-
-    .navbar {
-      display: flex;
-      justify-content: flex-end;
-      margin-bottom: 30px;
-    }
-
-    .navbar a {
-      color: black;
-      text-decoration: none;
-      margin-left: 20px;
-      font-size: 18px;
-    }
-
-    /* Project layout */
-    .project-row {
-      display: flex;
-      gap: 20px;
-      align-items: flex-start;
-      margin-bottom: 20px;
-    }
-
-    .project-row img {
-      width: 130px;
-      height: auto;
-      border: 1px solid black;
-    }
-
-    .project-text p {
-      margin: 0;
-      font-size: 22px;
-    }
-
-    .project-text a {
-      font-weight: bold;
-      text-decoration: underline;
-      color: black;
-    }
-
-    .project-text sup {
-      font-size: 12px;
-      margin-left: 4px;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <div class="page">
-    <div class="navbar">
-      <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="resume.html">Resume</a>
-    </div>
+    <header class="site-header">
+      <p class="site-title">Jinyu Zheng</p>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="blog.html">Blog</a>
+        <a href="resume.html">Resume</a>
+      </nav>
+    </header>
 
-    <h2>Projects</h2>
+    <h1>Projects</h1>
+    <p class="subtitle">Selected coursework and independent projects.</p>
 
     <div class="project-row">
       <img src="projects/project1/main.PNG" alt="project image">
 
-      <div class="project-text">
-        <p>
-          <a href="projects/project1/index.html">Ragdoll Simulator</a> - 
-          A fun attempt at physical realism of throwing a dummy around.
+      <div>
+        <h2 class="project-title"><a href="projects/project1/index.html">Ragdoll Simulator</a></h2>
+        <p>A physics-based ragdoll simulator where you can grab and throw around a dummy with your mouse.</p>
+        <p class="project-links">
+          <a href="projects/project1/index.html">Project page</a>
         </p>
       </div>
+    </div>
+
+    <div class="entry">
+      <h2 class="project-title"><a href="projects/rtl-sdr/index.html">RTL-SDR</a></h2>
+      <p>Software-defined radio project.</p>
+      <p class="project-links">
+        <a href="projects/rtl-sdr/index.html">Project page</a>
+      </p>
     </div>
 
   </div>

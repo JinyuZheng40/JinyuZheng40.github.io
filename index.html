@@ -1,79 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Main Page</title>
+  <title>Jinyu Zheng</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css">
-
-  <style>
-    body {
-      font-family: "Computer Modern Serif", serif;
-      font-size: 20px;
-      margin: 0;
-      color: black;
-      background: #f5f5f5;
-    }
-
-    .page {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 30px;
-      border: 1px solid black;
-      background: white;
-    }
-
-    .navbar {
-      display: flex;
-      justify-content: flex-end;
-      margin-bottom: 30px;
-    }
-
-    .navbar a {
-      color: black;
-      text-decoration: none;
-      margin-left: 20px;
-      font-size: 18px;
-    }
-
-
-    .about-row {
-      display: flex;
-      gap: 20px;
-      align-items: flex-start;
-    }
-
-    .about-row img {
-      width: 300px;
-      height: auto;
-      border: 1px solid black;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
   <div class="page">
+    <header class="site-header">
+      <p class="site-title">Jinyu Zheng</p>
+      <nav class="navbar">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="blog.html">Blog</a>
+        <a href="resume.html">Resume</a>
+      </nav>
+    </header>
 
-    <div class="navbar">
-      <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="resume.html">Resume</a>
-    </div>
-
-    <h2>Jinyu Zheng</h2>
-    <p>My personal site</p>
+    <h1>Jinyu Zheng</h1>
+    <p class="subtitle">Electrical Engineering student at NYU Tandon School of Engineering.</p>
 
     <h2>About</h2>
 
-    <div class="about-row">
-      <img src="nyu_tandon.jfif" alt="about image">
+    <div class="intro">
+      <img class="portrait" src="me.jpg" alt="Jinyu Zheng">
 
-      <p>
-        I am an Electrical Engineering student at NYU Tandon School of Engineering. 
-        My coursework and projects focus primarily on signal processing and its implementations.
-      </p>
+      <div>
+        <p>
+          I am an Electrical Engineering student at NYU Tandon School of Engineering.
+          My coursework and projects focus primarily on signal processing and its implementations.
+        </p>
+        <p>
+          This site collects my projects, short progress notes, and resume.
+        </p>
+      </div>
     </div>
 
+    <h2>Interests</h2>
+    <ul class="list">
+      <li>Signal processing</li>
+      <li>RF</li>
+      <li>Analog electronics</li>
+    </ul>
   </div>
 
 </body>
