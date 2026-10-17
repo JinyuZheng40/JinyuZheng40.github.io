@@ -1,52 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Jinyu Zheng</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css">
+  <title>Jinyu Zheng</title>
+  <link rel="stylesheet" href="https://latex.vercel.app/style.css">
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="index.html" aria-current="page">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="blog.html">Blog</a>
+    <a href="resume.html">Resume</a>
+  </nav>
 
-  <div class="page">
-    <header class="site-header">
-      <p class="site-title">Jinyu Zheng</p>
-      <nav class="navbar">
-        <a href="index.html" aria-current="page">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="blog.html">Blog</a>
-        <a href="resume.html">Resume</a>
-      </nav>
+  <main>
+    <header class="document-title">
+      <h1>Jinyu Zheng</h1>
     </header>
-
-    <h1>Jinyu Zheng</h1>
-    <p class="subtitle">Electrical Engineering student at NYU Tandon School of Engineering.</p>
-
-    <h2>About</h2>
-
-    <div class="intro">
-      <img class="portrait" src="me.jpg" alt="Jinyu Zheng">
-
-      <div>
-        <p>
-          I am an Electrical Engineering student at NYU Tandon School of Engineering.
-          My coursework and projects focus primarily on signal processing and its implementations.
-        </p>
-        <p>
-          This site collects my projects, short progress notes, and resume.
-        </p>
-      </div>
-    </div>
-
-    <h2>Interests</h2>
-    <ul class="list">
-      <li>Signal processing</li>
-      <li>RF</li>
-      <li>Analog electronics</li>
-    </ul>
-  </div>
-
+    <section class="about">
+      <h2>About</h2>
+      <img class="portrait" src="me.jpg" alt="Jinyu Zheng" width="655" height="792">
+      <p>I am an Electrical Engineering student at NYU Tandon School of Engineering. My coursework and projects focus primarily on signal processing and its implementations.</p>
+    </section>
+    <section>
+      <h2>Interests</h2>
+      <ul>
+        <li>Signal processing</li>
+        <li>RF</li>
+        <li>Analog electronics</li>
+      </ul>
+    </section>
+  </main>
 </body>
 </html>

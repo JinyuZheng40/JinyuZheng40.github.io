@@ -1,48 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Projects</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css">
+  <title>Projects</title>
+  <link rel="stylesheet" href="https://latex.vercel.app/style.css">
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <div class="page">
-    <header class="site-header">
-      <p class="site-title">Jinyu Zheng</p>
-      <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="projects.html" aria-current="page">Projects</a>
-        <a href="blog.html">Blog</a>
-        <a href="resume.html">Resume</a>
-      </nav>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="projects.html" aria-current="page">Projects</a>
+    <a href="blog.html">Blog</a>
+    <a href="resume.html">Resume</a>
+  </nav>
+
+  <main>
+    <header class="document-title">
+      <h1>Projects</h1>
     </header>
-
-    <h1>Projects</h1>
-    <p class="subtitle">Selected coursework and independent projects.</p>
-
-    <div class="project-row">
-      <img src="projects/project1/main.PNG" alt="project image">
-
-      <div>
-        <h2 class="project-title"><a href="projects/project1/index.html">Ragdoll Simulator</a></h2>
+    <section>
+      <h2><a href="projects/project1/index.html">Ragdoll Simulator</a></h2>
+      <div class="project-summary">
         <p>A physics-based ragdoll simulator where you can grab and throw around a dummy with your mouse.</p>
-        <p class="project-links">
-          <a href="projects/project1/index.html">Project page</a>
-        </p>
+        <a href="projects/project1/index.html" aria-label="Ragdoll Simulator project"><img src="projects/project1/main.PNG" alt="Ragdoll simulator screenshot" width="395" height="347"></a>
       </div>
-    </div>
-
-    <div class="entry">
-      <h2 class="project-title"><a href="projects/rtl-sdr/index.html">RTL-SDR</a></h2>
-      <p>Software-defined radio project.</p>
-      <p class="project-links">
-        <a href="projects/rtl-sdr/index.html">Project page</a>
-      </p>
-    </div>
-
-  </div>
+    </section>
+  </main>
 </body>
 </html>
