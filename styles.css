@@ -38,6 +38,16 @@ body {
   text-align: center;
 }
 
+.github-link:link {
+  color: #0000ee;
+  text-decoration: underline;
+}
+
+.github-link:visited {
+  color: #551a8b;
+  text-decoration: underline;
+}
+
 .document-title h1 {
   font-size: 2.25rem;
   line-height: 1.25;
